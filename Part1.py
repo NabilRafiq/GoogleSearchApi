@@ -1,7 +1,7 @@
 import requests, json 
 
 Api_key = open('Api_Key.txt').read()
-Search_Query = 'Imran Khan in Election'
+Search_Query = keyword
 SearchEngineId = open('SearchEngineId.txt').read()
 links = []
 url = 'https://www.googleapis.com/customsearch/v1'
